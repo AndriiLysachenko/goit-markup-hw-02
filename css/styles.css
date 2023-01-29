@@ -1,0 +1,57 @@
+:root{
+    --main-text-color:#2e2f42;
+    --title-text-color:#434455;
+    --btn-text-color:#4D5AE5;
+
+}
+body{
+    background-color: #FFFFFF;
+    color: var(--primary-text-color) #434455;
+}
+.logo{
+    color: var(--primary-text-color) #4D5AE5,#2e2f42;
+}
+/* main text color #2E2F42 NAVY BLUE */
+/* secondary color #434455 SLATE */
+/* title and button color #FFFFFF */
+/* studio in the footer color #F4F4FD CLOUD */
+/* web two times color #4D5AE5  IRIS */
+/* text in the footer #E7E9FC CORNFLOWER */
+/* our team background color #F4F4FD CLOUD */
+/* What are we doing background color #E7E9FC CORNFLOWER, #2E2F42 NAVY BLUE 10% */
+ 
+/* Site nav */
+.site-nav .link {
+   color: #2e2f42;
+   background-color: #E7E9FC;
+}
+ .site-nav .link:hover,
+ .site-nav .link:focus
+ { color: #4D5AE5;
+    
+}
+.auth-nav list{
+    color: #434455;
+}
+
+.hero-title{
+    color: #FFFFFF;
+    background-color: #2e2f42;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.section-title{
+    color: #2e2f42;
+}
+
+/* Features */
+.feature-list .title{
+    color: #2e2f42;
+}
+
+/* work */
+

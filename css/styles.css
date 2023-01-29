@@ -22,7 +22,7 @@ body{
  
 /* Site nav */
 .site-nav .link {
-   color: #2e2f42;
+   color: #2E2F42;
    background-color: #E7E9FC;
 }
  .site-nav .link:hover,
@@ -36,7 +36,7 @@ body{
 
 .hero-title{
     color: #FFFFFF;
-    background-color: #2e2f42;
+    background-color: #2E2F42;
 }
 
 .button{
@@ -45,12 +45,12 @@ body{
 }
 
 .section-title{
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 /* Features */
 .feature-list .title{
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 /* work */

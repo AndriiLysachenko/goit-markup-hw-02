@@ -2,14 +2,15 @@
     --main-text-color:#2e2f42;
     --title-text-color:#434455;
     --btn-text-color:#4D5AE5;
+    
 
 }
 body{
     background-color: #FFFFFF;
-    color: var(--primary-text-color) #434455;
+    color: #434455;
 }
 .logo{
-    color: var(--primary-text-color) #4D5AE5,#2e2f42;
+    color: #4D5AE5, #2e2f42;
 }
 /* main text color #2E2F42 NAVY BLUE */
 /* secondary color #434455 SLATE */
@@ -48,10 +49,10 @@ body{
     color: #2E2F42;
 }
 
-/* Features */
-.feature-list .title{
+/*  */
+.-list .title{
     color: #2E2F42;
 }
 
-/* work */
+
 

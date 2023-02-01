@@ -7,10 +7,10 @@
 }
 body{
     background-color: #FFFFFF;
-    color: #434455;
+    color: var(--title-text-color);
 }
 .logo{
-    color: #4D5AE5, #2e2f42;
+    color: var(--main-text-color), var(--main-text-color);
 }
 /* main text color #2E2F42 NAVY BLUE */
 /* secondary color #434455 SLATE */
@@ -23,36 +23,44 @@ body{
  
 /* Site nav */
 .site-nav .link {
-   color: #2E2F42;
+   color: var(--main-text-color);
    background-color: #E7E9FC;
 }
  .site-nav .link:hover,
  .site-nav .link:focus
- { color: #4D5AE5;
+ { color: var(--btn-text-color);
     
 }
 .auth-nav list{
-    color: #434455;
+    color: var(--title-text-color);
 }
 
 .hero-title{
     color: #FFFFFF;
-    background-color: #2E2F42;
+    background-color: var(--main-text-color);
 }
 
 .button{
     color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color: var(--btn-text-color);
 }
 
 .section-title{
-    color: #2E2F42;
+    color: var(--main-text-color);
 }
 
 /*  */
 .-list .title{
-    color: #2E2F42;
+    color: var(--main-text-color);
 }
 
+.team-title{
+    color: var(--main-text-color);
+    background-color: #F4F4FD;
+}
 
+.page-footer{
+    color: #E7E9FC;
+    background-color: var(--main-text-color);
+}
 

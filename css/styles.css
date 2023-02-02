@@ -9,8 +9,11 @@ body{
     background-color: #FFFFFF;
     color: var(--title-text-color);
 }
-.logo{
-    color: var(--main-text-color), var(--main-text-color);
+.header-logo{
+    color: var(--main-text-color);
+}
+.header-nav-logo{
+    color: var( --btn-text-color);
 }
 /* main text color #2E2F42 NAVY BLUE */
 /* secondary color #434455 SLATE */
@@ -20,16 +23,19 @@ body{
 /* text in the footer #E7E9FC CORNFLOWER */
 /* our team background color #F4F4FD CLOUD */
 /* What are we doing background color #E7E9FC CORNFLOWER, #2E2F42 NAVY BLUE 10% */
- 
+/* hover, focus color: #404BBF */
+
+
 /* Site nav */
 .site-nav .link {
    color: var(--main-text-color);
    background-color: #E7E9FC;
 }
- .site-nav .link:hover,
- .site-nav .link:focus
- { color: var(--btn-text-color);
-    
+ .header-link:is(:hover,:focus){
+    color: #404BBF;
+ }
+.header-address-link:is(:hover,:focus){
+    color: #404BBF;
 }
 .auth-nav list{
     color: var(--title-text-color);
@@ -63,4 +69,10 @@ body{
     color: #E7E9FC;
     background-color: var(--main-text-color);
 }
+.footer-logo{
+    color: var( --btn-text-color);
+}
+.footer-logo-link{
+    color: #F4F4FD
 
+}

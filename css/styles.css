@@ -1,7 +1,11 @@
 :root{
-    --main-text-color:#2e2f42;
-    --title-text-color:#434455;
-    --btn-text-color:#4D5AE5;
+    --background-white-color:#FFFFFF;
+    --color-hover:#404BBF;
+    --color-main-text:#434455;
+    --color-accent:#4D5AE5;
+    --color-second-text:#2E2F42;
+    --color-second-white: #F4F4FD;
+
     
 
 }
@@ -32,22 +36,22 @@ body{
    background-color: #E7E9FC;
 }
  .header-link:is(:hover,:focus){
-    color: #404BBF;
+    color: var(--colovar);
  }
 .header-address-link:is(:hover,:focus){
-    color: #404BBF;
+    color: var(--colovar);
 }
 .auth-nav list{
     color: var(--title-text-color);
 }
 
 .hero-title{
-    color: #FFFFFF;
-    background-color: var(--main-text-color);
+    color: var(--background-white-color);
+    background-color: var(--color-second-text);
 }
 
 .button{
-    color: #FFFFFF;
+    color: var(--background-white-color);
     background-color: var(--btn-text-color);
 }
 
@@ -62,7 +66,7 @@ body{
 
 .team-title{
     color: var(--main-text-color);
-    background-color: #F4F4FD;
+    background-color: var(--color-hover);
 }
 
 .page-footer{
@@ -73,6 +77,6 @@ body{
     color: var( --btn-text-color);
 }
 .footer-logo-link{
-    color: #F4F4FD
+    color: var(--color-hover);
 
 }

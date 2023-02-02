@@ -14,10 +14,10 @@ body{
     color: var(--title-text-color);
 }
 .header-logo{
-    color: var(--main-text-color);
+    color: var(--color-second-text);
 }
 .header-nav-logo{
-    color: var( --btn-text-color);
+    color: var(--color-accent);
 }
 /* main text color #2E2F42 NAVY BLUE */
 /* secondary color #434455 SLATE */
@@ -36,13 +36,17 @@ body{
    background-color: #E7E9FC;
 }
  .header-link:is(:hover,:focus){
-    color: var(--colovar);
+    color: var(--main-text-color);
  }
 .header-address-link:is(:hover,:focus){
-    color: var(--colovar);
+    color: var(--color-accent);
 }
 .auth-nav list{
     color: var(--title-text-color);
+}
+.button-primary{
+    color: var(--background-white-color);
+    background-color: var(--color-accent);
 }
 
 .hero-title{
@@ -66,17 +70,17 @@ body{
 
 .team-title{
     color: var(--main-text-color);
-    background-color: var(--color-hover);
+    
 }
 
 .page-footer{
     color: #E7E9FC;
-    background-color: var(--main-text-color);
+    background-color: var(--color-second-text);
 }
 .footer-logo{
-    color: var( --btn-text-color);
+    color: var(--color-accent);
 }
 .footer-logo-link{
-    color: var(--color-hover);
+    color: var(--color-second-white);
 
 }

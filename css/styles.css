@@ -38,12 +38,15 @@ body{
  .header-link:is(:hover,:focus){
     color: var(--main-text-color);
  }
+ 
 .header-address-link:is(:hover,:focus){
     color: var(--color-accent);
 }
+
 .auth-nav list{
     color: var(--title-text-color);
 }
+
 .button-primary{
     color: var(--background-white-color);
     background-color: var(--color-accent);
@@ -54,7 +57,7 @@ body{
     background-color: var(--color-second-text);
 }
 
-.button{
+.button-link{
     color: var(--background-white-color);
     background-color: var(--btn-text-color);
 }

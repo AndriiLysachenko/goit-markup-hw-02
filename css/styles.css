@@ -9,9 +9,16 @@
     
 
 }
-body{
-    background-color: #FFFFFF;
+body{ 
     color: var(--title-text-color);
+    background-color: #FFFFFF;
+
+    
+    font-family:'Roboto',sans-serif;   
+        font-size: 16px;
+        line-height: 1.5;  
+
+   
 }
 .header-logo{
     color: var(--color-second-text);
@@ -20,10 +27,10 @@ body{
     color: var(--color-accent);
 }
 /* main text color #2E2F42 NAVY BLUE */
-/* secondary color #434455 SLATE */
-/* title and button color #FFFFFF */
+/* color maim text #434455 SLATE */
+/* background #FFFFFF */
 /* studio in the footer color #F4F4FD CLOUD */
-/* web two times color #4D5AE5  IRIS */
+/* accent color #4D5AE5  IRIS */
 /* text in the footer #E7E9FC CORNFLOWER */
 /* our team background color #F4F4FD CLOUD */
 /* What are we doing background color #E7E9FC CORNFLOWER, #2E2F42 NAVY BLUE 10% */
@@ -38,7 +45,11 @@ body{
  .header-link:is(:hover,:focus){
     color: var(--main-text-color);
  }
- 
+
+ .header-address-link{
+    color: var(--color-main-text);
+ }
+
 .header-address-link:is(:hover,:focus){
     color: var(--color-accent);
 }
@@ -47,10 +58,28 @@ body{
     color: var(--title-text-color);
 }
 
-.button-primary{
+.button-primary {
+   
     color: var(--background-white-color);
     background-color: var(--color-accent);
+    
+            cursor: pointer;
+        font-family: inherit;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            border-color: var(--color-accent);
+            text-align: center;
+
 }
+
+.button-primary:hover,
+.button-primary:focus {
+    background-color: var(--color-hover);
+    color:var(--background-white-color)
+}
+
 
 .hero-title{
     color: var(--background-white-color);
@@ -59,7 +88,7 @@ body{
 
 .button-link{
     color: var(--background-white-color);
-    background-color: var(--btn-text-color);
+    background-color: var(--color-accent);
 }
 
 .section-title{

@@ -85,9 +85,19 @@
     border-radius: 4px;
     border: 1px solid #e7e9fc;
 
-    
-}
+    }
    
+    .main-btn {
+        background-color: #E7E9FC;
+        color: var(--secondary-color);
+        cursor: pointer;
+        font-family: 'Roboto';
+            
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+    
+    }
     .main-btn:focus,
     .main-btn:hover {
     background-color: var(--secondary-color);

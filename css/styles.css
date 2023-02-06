@@ -104,6 +104,9 @@
     color: #f4f4fd;
     cursor: pointer;
     }
+    .list {
+        list-style: none;
+    }
     .main-item {
     list-style: none;
     }

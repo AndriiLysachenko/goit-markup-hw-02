@@ -272,7 +272,7 @@ img{
   
 }
 .team-item{
-  width: calc((100%-72px)/4);
+  width: calc((100% - 72px) / 4);
   margin-right: 24px;
   display: flex;
   flex-direction: column;
@@ -337,7 +337,7 @@ img{
   display: block;
 }
 .portfolio-item{
-  flex-basis: calc((100%-(2*24px))/3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
   /*width: 360px;*/
   /*margin-right: auto;*/
   display: flex;

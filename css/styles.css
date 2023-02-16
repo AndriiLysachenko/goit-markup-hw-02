@@ -164,7 +164,8 @@ img{
   padding-top: 0;
   padding-bottom: 0;
   border-bottom: 1px solid var(--footer-text-portfolio-button-border);
-}               
+}
+
 .nav-main{
   display: flex;
   margin-left: auto;
@@ -189,6 +190,7 @@ img{
 
 .header-address-navigation-list{
   display: flex;
+
 }
 .header-address-navigation-item:not(:last-child) {
   margin-right: 40px;
@@ -199,6 +201,7 @@ img{
 .header-address-navigation-link{
   display: block;
   padding: 24px 0;
+  
 }
 
 
